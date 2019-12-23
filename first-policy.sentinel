@@ -1,4 +1,4 @@
-iimport "tfplan"
+import "tfplan"
 
 main = rule {
   all tfplan.resources.google_compute_instance as _, instances {
